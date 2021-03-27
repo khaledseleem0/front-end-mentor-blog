@@ -3,7 +3,7 @@ const width = 700;
 export const LandingPage = styled.div`
 height:100vh;
 width:100vw;
-background-image: url("/asseset/images/back.svg");
+background-image:url(${process.env.PUBLIC_URL}"/asseset/images/back.svg");
 `
 export const Content  = styled.div`
 position:absolute;

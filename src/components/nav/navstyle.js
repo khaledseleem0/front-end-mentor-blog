@@ -9,7 +9,7 @@ color:hsl(0, 0%, 100%);
 export const Navbar = styled.nav`
 display:flex;
 padding:2% 5%;
-position:fixed;
+position:absolute;
 right:0px;
 left:0px;
 transition:height 0.5s;
